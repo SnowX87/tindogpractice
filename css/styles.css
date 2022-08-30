@@ -1,0 +1,188 @@
+/****TAGS****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/****HEADINGS****/
+
+.heading {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* container */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* sections */
+
+.colored {
+    background-color: #ff4c68;
+    color: #fff ;
+}
+
+.white {
+    background-color: #fff;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #fff;
+}
+
+/* download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/****TITLE SECTION****/
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* title image */
+
+.iphone {
+    transform: rotate(25deg);
+    position: absolute;
+    width: 60%;
+    right: 30%;
+}
+
+.positioning {
+    position: relative;
+}
+
+/****FEATURE SECTION****/
+
+.feats {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5%;
+    }
+
+.feat-pic {
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.feat-pic:hover {
+    color: #ff4c68;
+}
+
+#features {
+    position:relative;
+
+ }
+
+ /****TESTIMONIALS SECTION****/
+
+ #testimonials {
+    background-color: #ef8172;
+ }
+
+ .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+ }
+
+ .testimonial-text {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+ }
+
+ /****PRESS SECTION****/
+
+ #press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+ }
+
+ .press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+ }
+
+/****PRICING SECTION****/
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+/****FOOTER SECTION****/
+
+.footer-brands {
+   font-size: 1.3rem;
+   margin:5px 5px;
+}
+
+.copyright {
+    position: relative;
+    bottom:50px;
+}
+
+
+
+
+@media (max-width: 1028px) {
+
+#title {
+    text-align: center;
+}
+
+    .iphone {
+        position:static;
+        transform: rotate(0);
+    }
+}
